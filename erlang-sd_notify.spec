@@ -4,12 +4,11 @@
 
 Name:		erlang-%{realname}
 Version:	0.1
-Release:	%mkrel 10
+Release:	1
 Summary:	Erlang interface to systemd notify subsystem
 Group:		Development/Other
 License:	MIT
 URL:		https://github.com/%{upstream}/erlang-%{realname}
-VCS:		scm:git:https://github.com/%{upstream}/erlang-%{realname}.git
 Source0:	https://github.com/%{upstream}/erlang-%{realname}/archive/%{version}/erlang-%{realname}-%{version}.tar.gz
 Source1:	erlang-sd_notify-rebar.config
 BuildRequires:	erlang-rebar
